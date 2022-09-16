@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <h1>Mira la consola</h1>
+        <script>
+            let socket = io.connect('http://localhost:5000',{
+                forceNew: true,
+            })
+            socket.on('fetchTicker',function (data) {
+                console.log(data);
+            })
+            socket.on('marketSellOrder',function (data) {
+                console.log(data);
+            })
+            socket.on('marketBuyOrder',function (data) {
+                console.log(data);
+            })
+            socket.on('sellCurrencyForDollar',function (data) {
+                console.log(data);
+            })
+            socket.on('buyCurrencyForDollar',function (data) {
+                console.log(data);
+            })
+        </script>
+    </body>
+    </html> 
