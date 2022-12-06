@@ -18,7 +18,7 @@ Lo que deberá hacer es diseñar y crear una API REST pública que recupere info
 
 ### Solution: Flowchart
 
-  - add Flowchart
+![diagrama de Flujo (1)](https://user-images.githubusercontent.com/55299077/205953999-09510c37-6054-4378-8e94-b7ae49946bd1.jpg)
 
 ## Installation
 
